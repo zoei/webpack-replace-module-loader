@@ -1,5 +1,5 @@
-# webpack-replace-module-loader
-A webpack loader to replace module.
+# webpack-replace-module-loader    
+Replace file *[name].[ext]* with *[name].[key].[ext]*;
 
 # Installation
 ***
@@ -20,7 +20,7 @@ $ npm install webpack-replace-module-loader --save-dev
         loaders: [{
             test: [/config\.json$/],   
             loader: 'webpack-replace-module-loader', 
-            include: [path.join(__dirname, 'src/config.json')], 
+            include: [path.join(__dirname, 'src')], 
             query: { key: process.env.BUILD_ENV }
         }]
     }
@@ -29,10 +29,11 @@ $ npm install webpack-replace-module-loader --save-dev
 ```js
 $ BUILD_ENV=production webpack
 ```
-##### This will package src/config.production.json into bundle file
+##### This will replace src/config.json with src/config.production.json
 # Query
 ***
 
 - key   
     -
     The value add to the file name.
+    The replace file is [name].[key].[ext]

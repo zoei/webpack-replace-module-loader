@@ -1,7 +1,7 @@
 {
   "name": "webpack-replace-module-loader",
   "version": "1.0.0",
-  "description": "replace module by key",
+  "description": "A webpack loader to replace module.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
