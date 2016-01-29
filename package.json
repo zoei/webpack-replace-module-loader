@@ -1,0 +1,25 @@
+{
+  "name": "webpack-replace-file-loader",
+  "version": "1.0.0",
+  "description": "replace module by key",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "zoei@163.com",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zoei/webpack-replace-module-loader.git"
+  },
+  "keywords": [
+    "webpack",
+    "relace",
+    "module",
+    "loader"
+  ],
+  "bugs": {
+    "url": "https://github.com/zoei/webpack-replace-module-loader/issues"
+  },
+  "homepage": "https://github.com/zoei/webpack-replace-module-loader#readme"
+}
