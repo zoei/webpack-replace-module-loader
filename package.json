@@ -1,5 +1,5 @@
 {
-  "name": "webpack-replace-file-loader",
+  "name": "webpack-replace-module-loader",
   "version": "1.0.0",
   "description": "replace module by key",
   "main": "index.js",
