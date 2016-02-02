@@ -1,6 +1,6 @@
 {
   "name": "webpack-replace-module-loader",
-  "version": "1.0.0",
+  "version": "1.0.22",
   "description": "A webpack loader to replace module.",
   "main": "index.js",
   "scripts": {
@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/zoei/webpack-replace-module-loader/issues"
   },
-  "homepage": "https://github.com/zoei/webpack-replace-module-loader#readme"
+  "homepage": "https://github.com/zoei/webpack-replace-module-loader#readme",
+  "dependencies": {
+    "loader-utils": "^0.2.12"
+  }
 }
